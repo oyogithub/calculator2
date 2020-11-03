@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>using switch case</title>
+
+<script >
+var a = parseInt(prompt('enter your first number'));
+var b = prompt('enter your operator like +,-,*,/');
+var k;
+var c = parseInt(prompt('enter your second number'));
+
+switch (b) {
+ case ('+'):
+ k=a+c;
+ document.write('your answer is : ' + k);
+ break;
+
+ case ('-'):
+ k=a-c;
+ document.write('your answer is : '+k);
+ break;
+
+ case ('*'):
+ k=a*c;
+ document.write('your answer is : '+k);
+ break;   
+
+ case ('/'):
+ k=a/c;
+ document.write('your answer is : '+k);
+ break;
+
+ default:
+ document.write('you enter incorrect symbol');
+}
+</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
